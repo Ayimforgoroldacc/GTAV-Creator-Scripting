@@ -17,7 +17,7 @@ returns the GTAV.exe Base Address
     - `tunableHash`: the tunable hash
 
 - **Returns:**
-    - [Tunable](../Types/tunable.md): a userdata instance of the tunable
+    - [Tunable](../Main/Types/tunable.md): a userdata instance of the tunable
 
 **Example Usage:**
 Set the xp multiplier
