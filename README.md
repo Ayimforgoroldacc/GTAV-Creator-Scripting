@@ -12,19 +12,24 @@ Documentation for the lua 5.4 scripting support of a external modding tool
 
 # Types
 
--   ## [Tunable](../Main/Types/tunable.md)
+-   ## [ScriptGlobal](../main/Types/global.md)
+    userdata object
+-   ## [Tunable](../main/Types/tunable.md)
     userdata object
 -   ## Vector3
     a table with x, y, z fields of type `number`, `(table<string, number>)`  in the future this will be a userdata with functions
+
 <a name="globals"/>
 
 # Global Tables
 
--   ## [Memory](../Main/GlobalTables/memory.md)
+-   ## [Memory](../main/GlobalTables/memory.md)
     Functions related to memory editing or tunables
--   ## [Menu](../Main/GlobalTables/menu.md)
+-   ## [Menu](../main/GlobalTables/menu.md)
     Functions related to creating controls like buttons,dividers,textblocks ETC
--   ## [Util](../Main/GlobalTables/util.md)
+-   ## [Script](../main/GlobalTables/script.md)
+-   ## [Stats](../main/GlobalTables/stats.md)
+-   ## [Util](../main/GlobalTables/util.md)
     Util / General Functions
 
 <a name="examples"/>

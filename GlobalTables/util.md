@@ -1,6 +1,16 @@
 # Util
 util
 
+### `getRpRequiredForRank(int rank)`
+
+- **Parameters:**
+    - `rank`
+
+- **Returns:**
+    - `integer`
+
+**Example Usage:**
+`N/A`
 
 ### `joaat(string text, bool unsigned = false)`
 
@@ -15,8 +25,8 @@ It should be noted that even though this is called [joaat](https://en.wikipedia.
 
 **Example Usage:**
 ```lua
-joaat('ayim') --> 3092493696
-joaat('ayim', true) --> -1202473600
+util.joaat('ayim') --> 3092493696
+util.joaat('ayim', true) --> -1202473600
 ```
 
 ### `log(string text)`

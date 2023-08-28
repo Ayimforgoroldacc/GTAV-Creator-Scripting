@@ -42,7 +42,7 @@ Reads an integer from the tunable
 
 **Example Usage:**
 ```lua
-local securityCooldown = memory.tunable(joaat("FIXER_SECURITY_CONTRACT_COOLDOWN_TIME")):readInt()
+local securityCooldown = memory.tunable(util.joaat("FIXER_SECURITY_CONTRACT_COOLDOWN_TIME")):readInt()
 ```
 
 ### `:readVector3()`
@@ -93,11 +93,11 @@ This writes a integer to the tunable
 **Example Usage:**
 Remove lesters bounty cut
 ```lua
-local bountyCut = memory.tunable(joaat("LESTER_BOUNTY_CUT"))
+local bountyCut = memory.tunable(util.joaat("LESTER_BOUNTY_CUT"))
 bountyCut:writeInt(0)
 
 --or for short
-memory.tunable(joaat("LESTER_BOUNTY_CUT")):writeInt(0)
+memory.tunable(util.joaat("LESTER_BOUNTY_CUT")):writeInt(0)
 ```
 
 ### `:writeVector3(table<string, number> value)`
