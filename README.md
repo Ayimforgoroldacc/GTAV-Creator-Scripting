@@ -1,4 +1,4 @@
-### TODO FINISH DOCS FUCK THIS FUCKING SHIT
+### Todo finish these docs.
 # Scripting Engine made for GTA-V
 Documentation for the lua scripting support of a external gta v creator tool
 
@@ -28,15 +28,17 @@ Provides warnings, errors, and completions for Pluto
 
 # Types
 -   ## Vector3
-    a table with x, y, z fields of type `number`.
-
+    a table with x, y, z fields of type `number`, `(table<string, number>)`  in the future this will be a userdata with functions
+-   ## [Tunable](../Types/tunable.md)
+    userdata object
 <a name="globals"/>
 
 # Global Tables
 
--   ## [Util](../GTAV-Creator-Scripting/GlobalTables/util.md)
+-   ## [Util](../GlobalTables/util.md)
     Util / General Functions
--   ## Tunables
+-   ## [Memory](../GlobalTables/memory.md)
+    Functions related to memory editing or tunables
 
 <a name="examples"/>
 

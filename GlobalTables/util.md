@@ -19,6 +19,21 @@ joaat('ayim') --> 3092493696
 joaat('ayim', true) --> -1202473600
 ```
 
+### `log(string text)`
+
+Writes text to the script's logs
+
+- **Parameters:**
+    - `text`: text to write
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+```lua
+util.log("Hello, World!")
+```
+
 ### `yield(int ms = 0)`
 
 Pauses execution of the thread until the next tick or after `ms` milliseconds
@@ -32,4 +47,3 @@ Pauses execution of the thread until the next tick or after `ms` milliseconds
 
 **Example Usage:**
 `N/A`
-
