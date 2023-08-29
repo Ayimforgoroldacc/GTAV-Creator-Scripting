@@ -34,4 +34,5 @@ Documentation for the lua 5.4 scripting support of a external modding tool
 
 
 # Example Scripts
-`N/A`
+-   ## [Int Stat Setter](../main/scripts/intStatSetter.lua)
+    a simple stat editor for int stats

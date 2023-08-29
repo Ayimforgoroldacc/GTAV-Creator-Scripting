@@ -19,11 +19,13 @@ Your buttons click handler will be called when the button is clicked
 **Example Usage:**
 `N/A`
 
-### `newSeparator()`
+### `newSeparator(small = true, background = "")`
 
-Draws a seperator/gray line
+Draws a seperator line
 
 - **Parameters:**
+    - `small`
+    - `background`: Optional, the button background colour: [Colours](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.colors#properties)
 
 - **Returns:**
     - `void`
@@ -34,6 +36,7 @@ Draws a seperator/gray line
 ### `newSliderInt(string content, int value, int max, int min, int tickFrequency, function onValueChanged)`
 
 Draws a integer slider with a textblock before it
+
 - **Parameters:**
     - `content`: Text Before the slider
     - `value`: The default value of the slider
