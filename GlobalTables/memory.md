@@ -17,7 +17,7 @@ returns the GTAV.exe Base Address
     - `globalIndex`:
 
 - **Returns:**
-    - [ScriptGLobal](../main/Types/global.md): a userdata instance of the global
+    - [ScriptGlobal](../Types/global.md): a userdata instance of the global
 
 **Example Usage:**
 `N/A`
@@ -28,7 +28,7 @@ returns the GTAV.exe Base Address
     - `tunableHash`: the tunable hash
 
 - **Returns:**
-    - [Tunable](../main/Types/tunable.md): a userdata instance of the tunable
+    - [Tunable](../Types/tunable.md): a userdata instance of the tunable
 
 **Example Usage:**
 Set the xp multiplier

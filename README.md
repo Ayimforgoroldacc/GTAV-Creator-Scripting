@@ -1,4 +1,4 @@
-### Todo finish these docs.
+#todo docs finish scriptglobal types file and missing features like ped
 # Scripting Engine made for GTA-V
 Documentation for the lua 5.4 scripting support of a external modding tool
 
