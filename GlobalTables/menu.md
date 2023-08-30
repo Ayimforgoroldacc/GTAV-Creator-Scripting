@@ -19,7 +19,35 @@ Your buttons click handler will be called when the button is clicked
 **Example Usage:**
 `N/A`
 
-### `newSeparator(small = true, background = "")`
+### `newCheckbox(string content, string description, function onCheckedChanged, bool isCheckedState)`
+
+Create a new checkbox</br>
+Your checkbox's onCheckedChanged handler will be called with the `isCheckedState` when the checkbox checked state is changed
+
+- **Parameters:**
+    - `content`: The checkbox text
+    - `description`: Text in a question mark next to your button, You may leave this as ""
+    - `isCheckedState`: Optional, whether it should be checked by default
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+### `newLineBreak()`
+
+Alternative to `menu.seperator(true, "Transparent")`
+
+- **Parameters:**
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+### `newSeparator(small = true, background = "Silver")`
 
 Draws a seperator line
 
@@ -50,7 +78,6 @@ Draws a integer slider with a textblock before it
 
 **Example Usage:**
 `N/A`
-
 
 ### `newTextBlock(string content, string foreground = "", string background = "")`
 

@@ -9,7 +9,7 @@ menu.newSliderInt("Int Value", "", 1, 2147483647, -2147483648, 100, function(val
     value = val
 end)
 
-menu.seperator(true, "Transparent") --make a new line
+menu.newLineBreak() --Make a new line.
 
 menu.button("Set Int", "", function()
     stats.setInt(stat, value)

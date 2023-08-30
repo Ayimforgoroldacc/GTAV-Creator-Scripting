@@ -1,10 +1,62 @@
 # Util
 util
 
+getUnixTimeMilliseconds
+
+### `base64Decode(string text)`
+
+- **Parameters:**
+    - `text`
+
+- **Returns:**
+    - `string`
+
+**Example Usage:**
+```lua
+util.joaat("SGVsbG8sIFdvcmxkIQ==") --> Hello, World!
+```
+
+### `base64Encode(string text)`
+
+- **Parameters:**
+    - `text`
+
+- **Returns:**
+    - `string`
+
+**Example Usage:**
+```lua
+util.joaat("Hello, World!") --> SGVsbG8sIFdvcmxkIQ==
+```
+
 ### `getRpRequiredForRank(int rank)`
 
 - **Parameters:**
     - `rank`
+
+- **Returns:**
+    - `integer`
+
+**Example Usage:**
+`N/A`
+
+### `getUnixTimeMilliseconds()`
+
+Returns how many milliseconds have passed since (in ISO 8601: 1970-01-01T00:00:00Z)
+
+- **Parameters:**
+
+- **Returns:**
+    - `integer`
+
+**Example Usage:**
+`N/A`
+
+### `getUnixTimeSeconds()`
+
+Returns how many seconds have passed since (in ISO 8601: 1970-01-01T00:00:00Z)
+
+- **Parameters:**
 
 - **Returns:**
     - `integer`
@@ -25,8 +77,8 @@ It should be noted that even though this is called [joaat](https://en.wikipedia.
 
 **Example Usage:**
 ```lua
-util.joaat('ayim') --> 3092493696
-util.joaat('ayim', true) --> -1202473600
+util.joaat("ayim") --> 3092493696
+util.joaat("ayim", true) --> -1202473600
 ```
 
 ### `log(string text)`

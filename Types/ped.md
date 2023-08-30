@@ -1,7 +1,7 @@
 # Ped Type
 userdata
 
-### `:getArmor()`
+### `:getArmour()`
 
 - **Parameters:**
 
@@ -64,6 +64,18 @@ userdata
 
 - **Returns:**
     - `Vector3`
+
+**Example Usage:**
+`N/A`
+
+### `:getSelectedWeaponHash()`
+
+Returns the hash of the weapon the ped is holding
+
+- **Parameters:**
+
+- **Returns:**
+    - `int`
 
 **Example Usage:**
 `N/A`
@@ -131,6 +143,16 @@ Returns true if the ped is in a cutscene and false if the ped is not in a cutsce
 **Example Usage:**
 `N/A`
 
+### `:isInGodmode()`
+
+- **Parameters:**
+
+- **Returns:**
+    - `bool`
+
+**Example Usage:**
+`N/A`
+
 ### `:isInvehicle()`
 
 - **Parameters:**
@@ -147,6 +169,62 @@ Returns true if the ped is in a cutscene and false if the ped is not in a cutsce
 
 - **Returns:**
     - `bool`
+
+**Example Usage:**
+`N/A`
+
+### `:setArmour(float value)`
+
+- **Parameters:**
+    - `value`
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+### `:setGodmode(bool value)`
+
+- **Parameters:**
+    - `value`
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+### `:setHealth(float value)`
+
+- **Parameters:**
+    - `value`
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+
+### `:setMaxHealth(float value)`
+
+- **Parameters:**
+    - `value`
+
+- **Returns:**
+    - `void`
+
+**Example Usage:**
+`N/A`
+
+### `:setPosition(Vector3 value)`
+
+- **Parameters:**
+    - `value`
+
+- **Returns:**
+    - `void`
 
 **Example Usage:**
 `N/A`

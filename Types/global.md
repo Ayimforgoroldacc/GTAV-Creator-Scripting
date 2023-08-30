@@ -101,7 +101,7 @@ This writes a integer to the global
 **Example Usage:**
 `N/A`
 
-### `:writeVector3(table<string, number> value)`
+### `:writeVector3(Vector3 value)`
 
 - **Parameters:**
     - `value`
