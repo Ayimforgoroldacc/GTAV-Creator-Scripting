@@ -1,8 +1,6 @@
 # Util
 util
 
-getUnixTimeMilliseconds
-
 ### `base64Decode(string text)`
 
 - **Parameters:**
