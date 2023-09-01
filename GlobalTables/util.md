@@ -27,6 +27,26 @@ util.joaat("SGVsbG8sIFdvcmxkIQ==") --> Hello, World!
 util.joaat("Hello, World!") --> SGVsbG8sIFdvcmxkIQ==
 ```
 
+### `getCurrentInteractionMenuItemId()`
+
+- **Parameters:**
+
+- **Returns:**
+    - `int`
+
+**Example Usage:**
+`N/A`
+
+### `getCurrentInteractionMenuTabd()`
+
+- **Parameters:**
+
+- **Returns:**
+    - `int`
+
+**Example Usage:**
+`N/A`
+
 ### `getRpRequiredForRank(int rank)`
 
 - **Parameters:**
@@ -97,7 +117,6 @@ util.log("Hello, World!")
 ### `yield(int ms = 0)`
 
 Pauses execution of the thread until the next tick or after `ms` milliseconds
-
 
 - **Parameters:**
     - `ms`

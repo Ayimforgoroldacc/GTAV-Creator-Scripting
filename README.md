@@ -26,8 +26,7 @@ Documentation for the lua 5.4 scripting support of a external modding tool
 -   ## [Tunable](../main/Types/tunable.md)
 -   ## Vector3
     A table with x, y, z fields of type `number`, `(table<string, number>)` in the future this will be a userdata with functions
--   ## Vehicle
-    Undocumented at the moment
+-   ## [Vehicle](../main/Types/vehicle.md)
 -   ## UIComponent
     unused at the moment, but implemented in code base. In the future returned from `menu.newXXX`
 

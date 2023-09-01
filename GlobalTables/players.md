@@ -14,6 +14,52 @@ Returns the bank balance of a player by their player id
 **Example Usage:**
 `N/A`
 
+### `getDeaths(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `int`
+
+**Example Usage:**
+`N/A`
+
+### `getInteriorId(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `int`
+
+**Example Usage:**
+`N/A`
+
+### `getKd(int playerId)`
+
+Returns the kill-death-ratio of the player
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `number`
+
+**Example Usage:**
+`N/A`
+
+### `getKills(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `int`
+
+**Example Usage:**
+`N/A`
+
 ### `getName(int playerId)`
 
 Returns the name of a player by their player id
@@ -90,6 +136,52 @@ Returns the wallet balance of a player by their player id
 **Example Usage:**
 `N/A`
 
+### `isDevDlcPresent(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `bool`
+
+**Example Usage:**
+`N/A`
+
+### `isInInterior(int playerId)`
+
+Alternative to `players.getInteriorId(...) ~= 0`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `bool`
+
+**Example Usage:**
+`N/A`
+
+### `isInPassiveMode(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `bool`
+
+**Example Usage:**
+`N/A`
+
+### `isRockstarDev(int playerId)`
+
+- **Parameters:**
+    - `playerId`
+
+- **Returns:**
+    - `bool`
+
+**Example Usage:**
+`N/A`
+
 ### `user()`
 
 Returns your users player id
@@ -113,3 +205,10 @@ Returns your users ped userdata instance
 
 **Example Usage:**
 `N/A`
+
+### `userVehicle()`
+
+- **Parameters:**
+
+- **Returns:**
+    - [Vehicle](../Types/vehicle.md)

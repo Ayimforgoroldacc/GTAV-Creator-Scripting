@@ -48,6 +48,9 @@ userdata
 - **Returns:**
     - `number`
 
+**Example Usage:**
+`N/A`
+
 ### `:getPlayerId()`
 
 - **Parameters:**
@@ -95,7 +98,7 @@ Returns the hash of the weapon the ped is holding
 - **Parameters:**
 
 - **Returns:**
-    - `Vehicle`
+    - [Vehicle](../Types/vehicle.md)
 
 **Example Usage:**
 `N/A`
@@ -205,7 +208,6 @@ Returns true if the ped is in a cutscene and false if the ped is not in a cutsce
 
 **Example Usage:**
 `N/A`
-
 
 ### `:setMaxHealth(float value)`
 
